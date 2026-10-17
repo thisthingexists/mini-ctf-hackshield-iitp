@@ -1,6 +1,9 @@
 id: hackshield-iitp
 name: HackShield IITP
-type: topic
+# Students must type this password when joining the dojo.
+# Change it to whatever you like, then Update dojo on the admin page.
+password: WeAreThePeople
+type: hidden
 award:
   emoji: 🛡️
 modules:
