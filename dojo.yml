@@ -1,0 +1,59 @@
+id: hackshield-iitp
+name: HackShield IITP
+type: topic
+award:
+  emoji: 🛡️
+modules:
+  # Platform orientation (from pwn.college's own welcome dojo)
+  - import:
+      dojo: welcome
+      module: welcome
+
+  # Linux Basics
+  - import:
+      dojo: linux~cf6cc015
+      module: linux-basics
+
+  # Python Programming
+  - import:
+      dojo: python-programming~7745aa00
+      module: input-and-output
+  - import:
+      dojo: python-programming~7745aa00
+      module: math-operators
+  - import:
+      dojo: python-programming~7745aa00
+      module: conditionals
+  - import:
+      dojo: python-programming~7745aa00
+      module: loops
+
+  # Cyber Security topics (from DSU's public-cyber-security dojo)
+  - import:
+      dojo: cyber-security~59368da7
+      module: encoding
+  - import:
+      dojo: cyber-security~59368da7
+      module: osint
+  - import:
+      dojo: cyber-security~59368da7
+      module: web
+  - import:
+      dojo: cyber-security~59368da7
+      module: pwn
+  - import:
+      dojo: cyber-security~59368da7
+      module: forensics
+
+  # Bonus forensics challenges (from DSU's homecoming CTF)
+  - id: forensics-ctf
+    name: Forensics CTF
+    challenges:
+      - import:
+          dojo: dsu-homecoming~064fa793
+          module: forensics
+          challenge: findthegeneral
+      - import:
+          dojo: dsu-homecoming~064fa793
+          module: forensics
+          challenge: findthegeneralii
